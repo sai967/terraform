@@ -1,16 +1,16 @@
 provider "azurerm" {
   version         = "=2.4.0"
-  subscription_id = "395b2b6c-8fb6-4cc1-83e4-39455be6b102"
-  client_id       = "df4415d0-e7a2-4334-9d5c-fa45d42eaeee"
-  client_secret   = "8~pdhCQUZ~yMTP_M-hCK1imb~AO22L1.wn"
-  tenant_id       = "90c3f360-0a02-49e4-b70c-4ebb69378edf"
+  subscription_id = "c305be7c63a276db1ac9cd82835f7301bb6aabc9"
+  client_id       = "3a7f77a3-2459-450d-94f9-abbe4b309cb7"
+  client_secret   = "E395nciWmN--rRL9luMX1K2QM2SOSu~.Xg"
+  tenant_id       = "d6195025-5687-432a-9dbc-5cd542216cf2"
   features {}
 }
 terraform {
   backend "azurerm" {
-    storage_account_name = "k8st"
-    container_name       = "container3"
+    storage_account_name = "sss000"
+    container_name       = "container1"
     key                  = "dev.terraform.tfstate"
-    access_key = "hvdqCgGitXMMcumfAAAjl6C4J6raPQbo/LcFdBwH/LuiMYpiQxx88xyduy9BRy0MwUmowTIFOqFs1Wl+pRJ02w=="
+    access_key = "2obQXUUu1dfneY7KzWg+9ORtICNEYknArR5W8KaHihXbgl5rUjqa/u876Cub7cT0IC+tSo3tXqnM9zz2Dz0Gcg=="
   }
 }
